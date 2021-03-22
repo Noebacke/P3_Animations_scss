@@ -1,8 +1,49 @@
-.logo {
-  background-color: grey;
+.header-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
 }
 
-.logo-clair {
-  background-color: rgba(60, 141, 60, 0.6);
+.description {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.search {
+  background-color: rgba(179, 177, 177, 0.815);
+}
+
+.header-nav {
+  background-color: #e4dede;
+  padding: 10px 0px 10px 20px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0;
+}
+
+.bouton {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

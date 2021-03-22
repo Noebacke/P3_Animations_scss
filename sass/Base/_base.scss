@@ -1,9 +1,26 @@
-.logo{
-    background-color: $background-color;
+.header-position{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
-
-.logo-clair{
+.description{
+    flex-direction: row;
+}
+.search{
+    background-color: rgba(179, 177, 177, 0.815);
+   
+}
+.header-nav{
+    background-color: rgb(228, 222, 222);
+    padding: 10px 0px 10px 20px;
+}
+body{
+    margin: 0;
+}
+.header-logo{
     
-    background-color: rgba($primary-color,0.6);
 }
-
+h1{
+    font-size: 20px;
+    padding: 0;
+}
