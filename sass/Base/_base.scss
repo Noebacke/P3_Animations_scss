@@ -7,11 +7,11 @@
     flex-direction: row;
 }
 .search{
-    background-color: rgba(179, 177, 177, 0.815);
+    background-color: rgb(228, 222, 222);
    
 }
 .header-nav{
-    background-color: rgb(228, 222, 222);
+    background-color: $background-color;
     padding: 10px 0px 10px 20px;
 }
 body{
@@ -23,4 +23,36 @@ body{
 h1{
     font-size: 20px;
     padding: 0;
+}
+.fiche{
+display: flex;
+justify-content: center;
+
+    .notif{
+        background-color: $primary-color;
+        border-radius: 10px;
+        padding: 1px 6px;
+    }
+    .stapes{
+        display: flex;
+        background-color:$background-color;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+            .icone{
+                font-size: 5px;
+            }
+            .text-fiche{
+
+            }
+    }
+
+}
+
+.list-menu{
+    background-color: $background-color;
+}
+.picture{
+    border-radius: 15px;
+    
 }
