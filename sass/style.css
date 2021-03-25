@@ -6,9 +6,10 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 0;
+  text-align: center;
 }
 
-.description {
+.list {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -21,7 +22,17 @@
 
 .header-nav {
   background-color: #F2F2F2;
-  padding: 10px 0px 10px 20px;
+  padding: 10px 50px 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body {
@@ -40,12 +51,18 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fiche .notif {
   background-color: #9356DC;
   border-radius: 10px;
   padding: 1px 6px;
+  position: relative;
+  margin-right: -11px;
+  margin-bottom: 19px;
 }
 
 .fiche .stapes {
@@ -53,21 +70,98 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   background-color: #F2F2F2;
-  padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 50px;
 }
 
 .fiche .stapes .icone {
   font-size: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: #444444;
 }
 
 .list-menu {
   background-color: #F2F2F2;
 }
 
-.picture {
-  border-radius: 15px;
+.menu-picture {
+  background-color: #F2F2F2;
+}
+
+.menu-picture .picture {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.notif {
+  margin: 10px;
+  color: white;
+  border-radius: 40px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 11px;
+}
+
+.logo {
+  height: 30px;
+  max-width: 150px;
+}
+
+.icone-gps {
+  margin-right: 10px;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.name-restaurant {
+  font-weight: bold;
+}
+
+.big-title {
+  font-weight: bold;
+}
+
+.photos {
+  background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  height: 250px;
+  background-size: cover;
+  position: relative;
+}
+
+.new {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #99E2D0;
 }
 
 .bouton {

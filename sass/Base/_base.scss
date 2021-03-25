@@ -2,17 +2,21 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    text-align: center;
 }
-.description{
+.list{
     flex-direction: row;
 }
 .search{
-    background-color: rgb(228, 222, 222);
+    background-color: $black-grey;
    
 }
 .header-nav{
     background-color: $background-color;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 body{
     margin: 0;
@@ -27,24 +31,34 @@ h1{
 .fiche{
 display: flex;
 justify-content: center;
+align-items: center;
 
     .notif{
         background-color: $primary-color;
         border-radius: 10px;
         padding: 1px 6px;
+        position: relative;
+        margin-right: -11px;
+        margin-bottom: 19px;
     }
     .stapes{
         display: flex;
         background-color:$background-color;
-        padding: 10px 20px;
-        border-radius: 10px;
+        border-radius: 20px;
         margin-bottom: 10px;
-            .icone{
+        align-items: center;
+        width: 80%;
+        height: 50px;
+        .icone{
+        
                 font-size: 5px;
-            }
+                margin-right: 5px;
+                font-size: 15px;
+                color: rgba(68, 68, 68, 69%);
+        }
             .text-fiche{
 
-            }
+        }
     }
 
 }
@@ -52,7 +66,58 @@ justify-content: center;
 .list-menu{
     background-color: $background-color;
 }
-.picture{
-    border-radius: 15px;
-    
+.menu-picture{
+    background-color:$background-color;
+    .picture{
+        height: 250px;
+        overflow: hidden;
+        border-radius: 20px;
+        text-align: center;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+}
+.notif{
+    margin: 10px;
+    color: white;
+    border-radius: 40px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px
+}
+.logo{
+    height: 30px;
+    max-width: 150px;
+}
+.icone-gps{
+    margin-right: 10px;
+}
+.description{
+    display: flex;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background-color: white;
+    justify-content: center;
+}
+.name-restaurant{
+    font-weight: bold;
+}
+.big-title{
+    font-weight: bold;
+}
+.photos{
+    background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 250px;
+    background-size: cover;
+    position: relative;
+}
+.new{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: $tertiary-color;
 }
