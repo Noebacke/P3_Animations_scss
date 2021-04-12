@@ -1,0 +1,62 @@
+.body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.726);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer .logo-footer {
+  width: 100px;
+}
+
+.footer .links-footer {
+  color: white;
+  text-align: start;
+}
+
+.footer .footer-icon {
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.heart {
+  font-size: 26px;
+}
+
+.bouton {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 52px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style2.css.map */
