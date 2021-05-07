@@ -1,0 +1,54 @@
+@keyframes loader{
+    from{
+        opacity: 1;
+        transform: rotate(0deg);
+        
+    }
+    
+    99%{
+        opacity: 1;
+    }
+
+    to{
+        transform: rotate(900deg);
+        
+    }
+    
+}
+@keyframes loader-conteneur{
+    from{
+        opacity: 1;
+        z-index: 1;
+    }
+
+    99%{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+        
+    }
+}
+@keyframes dishes-appear{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes dishes-appear{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
