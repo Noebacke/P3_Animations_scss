@@ -205,13 +205,11 @@ h1{
     justify-content: space-between;
     padding: 10px 20px;
 }
-.name-restaurant{
-    
-}
+
 .big-title{
     font-weight: bold;
 }
-.photos{
+.pictures{
     height: 210px;
     background-size: cover;
     position: relative;
@@ -219,18 +217,6 @@ h1{
     border-top-right-radius: 20px;
 }
 
-.menu-1{
-    background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-}
-.menu-2{   
-    background-image: url("../images/stil-u2Lp8tXIcjw-unsplash.jpg");  
-}
-.menu-3{
-    background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-}
-.menu-4{
-    background-image: url("../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-}
 .new{
     position: absolute;
     right: 10px;
@@ -245,33 +231,7 @@ h1{
     height: 19px;
 }
 
-.footer{
-    background-color:rgba(0, 0, 0, 0.726);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    
-    .footer-options{
-        display: flex;
-        padding-bottom: 5px;
-        align-items: baseline;
-    }
-    .logo-footer{
-        width: 100px;
-        color: white;
-        
-    }
-    .links-footer{
-        color: $footer-text;
-        text-align: start;
-    }
-    .footer-icon{
-        
-        font-size: 10px;
-        padding-right: 10px;
-    }
-    
-}
+
 .cont-fiches{
     display: flex;
     flex-direction: column;
@@ -413,6 +373,33 @@ h1{
     font-size: 14px;
 }
 
+.footer{
+    background-color:rgba(0, 0, 0, 0.726);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    .footer-options{
+        display: flex;
+        padding-bottom: 5px;
+        align-items: baseline;
+    }
+    .logo-footer{
+        width: 100px;
+        color: white;
+        
+    }
+    .links-footer{
+        color: $footer-text;
+        text-align: start;
+    }
+    .footer-icon{
+        
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    
+}
 
 @media screen and (min-width: 1200px){
 
@@ -433,9 +420,6 @@ h1{
     .footer-logo{
         display: flex;
         justify-content: center;
-    }
-    .bouton{
-       
     }
     .cont-fiches{
         display: flex;
@@ -462,15 +446,6 @@ h1{
     }
     .photos{
         height: 350px;
-    }
-    .links-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .footer-logo{
-        display: flex;
-        justify-content: center;
     }
     .informations{
         padding-right: 10px;

@@ -282,28 +282,12 @@ h1 {
   font-weight: bold;
 }
 
-.photos {
+.pictures {
   height: 210px;
   background-size: cover;
   position: relative;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.menu-1 {
-  background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-}
-
-.menu-2 {
-  background-image: url("../images/stil-u2Lp8tXIcjw-unsplash.jpg");
-}
-
-.menu-3 {
-  background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-}
-
-.menu-4 {
-  background-image: url("../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
 .new {
@@ -318,43 +302,6 @@ h1 {
 .position {
   width: 111px;
   height: 19px;
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0.726);
-  padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.footer .footer-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 5px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer .logo-footer {
-  width: 100px;
-  color: white;
-}
-
-.footer .links-footer {
-  color: white;
-  text-align: start;
-}
-
-.footer .footer-icon {
-  font-size: 10px;
-  padding-right: 10px;
 }
 
 .cont-fiches {
@@ -535,6 +482,43 @@ h1 {
   font-size: 14px;
 }
 
+.footer {
+  background-color: rgba(0, 0, 0, 0.726);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footer-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer .logo-footer {
+  width: 100px;
+  color: white;
+}
+
+.footer .links-footer {
+  color: white;
+  text-align: start;
+}
+
+.footer .footer-icon {
+  font-size: 10px;
+  padding-right: 10px;
+}
+
 @media screen and (min-width: 1200px) {
   .responsive {
     display: -webkit-box;
@@ -612,26 +596,6 @@ h1 {
   }
   .photos {
     height: 350px;
-  }
-  .links-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .footer-logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .informations {
     padding-right: 10px;
