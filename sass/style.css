@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.loading-conteneur {
+.loader-conteneur {
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   right: 0;
@@ -15,7 +15,7 @@ body {
           animation: loader-conteneur 4s;
 }
 
-.loading-conteneur .loading {
+.loader-conteneur .loader {
   position: absolute;
   top: 50%;
   left: 43%;
@@ -23,7 +23,62 @@ body {
   font-size: 50px;
 }
 
-.loading i {
+.header-logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  margin: auto;
+}
+
+.picture-m1 {
+  background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+  border-top: none;
+}
+
+.restaurant-name {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F2F2F2;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.title h1 {
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.dishes:hover i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.check i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
+}
+
+.loader i {
   opacity: 0;
   -webkit-animation: loader 3s linear;
           animation: loader 3s linear;
@@ -315,6 +370,156 @@ h1 {
   font-weight: bold;
 }
 
+.card .dishes:hover .check {
+  margin-right: 0;
+}
+
+.card {
+  padding: 15px;
+  background-color: #F2F2F2;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: -26px;
+  position: relative;
+}
+
+.card .dishes:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.card .dishes:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.card .dishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0 15px 0;
+  padding-left: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-animation-name: dishes-appear;
+          animation-name: dishes-appear;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.card .dishes .info-dishe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.card .dishes .info-dishe .informations {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card .dishes .info-dishe .informations .dishe {
+  font-weight: bold;
+}
+
+.card .dishes .info-dishe .price {
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.card .dishes .check {
+  padding: 33px 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-transition: margin-right 1s;
+  transition: margin-right 1s;
+  margin-right: -66px;
+  color: white;
+  background-color: #99E2D0;
+}
+
+.position-boutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-column {
+  max-width: 600px;
+  margin: auto;
+}
+
+.heart {
+  font-size: 26px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.heart i.heart-conteneur {
+  z-index: 10;
+}
+
+.heart-2 {
+  position: absolute;
+  bottom: 29px;
+  cursor: pointer;
+  color: #9356DC;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 0.5px;
+}
+
+.heart:hover .heart-2 {
+  opacity: 1;
+  font-size: 26.5px;
+  -webkit-transform: translate(-2%, 69%);
+          transform: translate(-2%, 69%);
+}
+
+.type {
+  border-bottom: solid #99E2D0 2px;
+  width: 34px;
+}
+
+.logo-text {
+  font-family: 'Shrikhand', cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.technics {
+  font-size: 14px;
+}
+
 @media screen and (min-width: 1200px) {
   .responsive {
     display: -webkit-box;
@@ -375,6 +580,50 @@ h1 {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .card {
+    margin-top: 0;
+  }
+  .menu-conteneur {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .photos {
+    height: 350px;
+  }
+  .links-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .informations {
+    padding-right: 10px;
+  }
+  .price {
+    padding-right: 5px;
+  }
 }
 
 .bouton {
@@ -399,6 +648,38 @@ h1 {
   border: none;
   max-width: 400px;
   width: 100%;
+}
+
+.bouton-2 {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 52px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 60%;
+  border: none;
+  max-width: 300px;
+}
+
+.back {
+  background-color: white;
+  border: none;
+  padding-top: 10px;
+  position: absolute;
+  padding-left: 15px;
 }
 
 @-webkit-keyframes loader {

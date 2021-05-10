@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.loading-conteneur {
+.loader-conteneur {
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   right: 0;
@@ -15,7 +15,7 @@ body {
           animation: loader-conteneur 4s;
 }
 
-.loading-conteneur .loading {
+.loader-conteneur .loader {
   position: absolute;
   top: 50%;
   left: 43%;
@@ -87,7 +87,7 @@ body {
   transition: transform 0.7s, -webkit-transform 0.7s;
 }
 
-.loading i {
+.loader i {
   opacity: 0;
   -webkit-animation: loader 3s linear;
           animation: loader 3s linear;
@@ -332,7 +332,7 @@ body {
 
 .heart-2 {
   position: absolute;
-  bottom: 26px;
+  bottom: 29px;
   cursor: pointer;
   color: #9356DC;
   opacity: 0;

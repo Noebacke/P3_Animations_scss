@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.loading-conteneur{
+.loader-conteneur{
 
     background-color: rgba(255,255,255,0.9);
     left: 0;
@@ -13,7 +13,7 @@ body{
     opacity: 0;
     animation: loader-conteneur 4s;
 
-    .loading{
+    .loader{
         position: absolute;
         top:50%;
         left:43%;
@@ -70,7 +70,7 @@ body{
     transition: transform 0.7s;
 }
 
-.loading i{
+.loader i{
     opacity: 0;
     animation: loader 3s linear;
 }
@@ -240,7 +240,7 @@ body{
 }
 .heart-2{
     position: absolute;
-    bottom: 26px;
+    bottom: 29px;
     cursor: pointer;
     color: $primary-color;
     opacity: 0;
