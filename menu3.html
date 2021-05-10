@@ -4,120 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style.css">
     <title>ohmyfoodM3</title>
 </head>
 <body>
-    <header class="hearder">
-        <button type="button" value="Accueil" OnClick="file:/C:/Users/noeeb/OneDrive/Documents/Projet%203/index.html/index.html">
-            <img class="arrow" src="/images/ohmyfood@2x.svg">
-        </button>
-        <div class="header-logo">
-            <img class="ohmyfood" src="">
+    <div class="loader-conteneur">
+        <div class="loader">
+            <i class="fas fa-spinner"></i>
+        </div>
+    </div>
+    <header class="header">
+        <a href="./index.html">
+            <button class="back" type="button" value="Accueil">
+                <div class="arrow">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+            </button>
+        </a>
+        <div class="header-logo logo-text">
+            Ohmyfood
         </div>
     </header>
 
     <section>
-        <img class="picture" src="">
-        <div class="restaurant-name">
-            <div class="title">La palette du goût</div>
-                <img id="heart" src="">
-            </div>
+        <div class=" photos picture-m3">
+
         </div>
+        
         <div class="card">
-            <div class="type">Entrée</div>
-            <div class="menus">
-                <div class="dishes">
-                    <div class="dishe">Fricassée d'escargot</div>
-                    <div class="informations">
-                        <div class="technics">Au piment d'espelette</div>
-                        <div class="price">25€</div>
-                    </div>
+            <div class="restaurant-name">
+                <div class="title logo-text">
+                    <h1>À la française</h1>
                 </div>
-                <div class="dishe">
-                    <div class="dishe">Foie gras de canard mi-cuit</div>
-                    <div class="informations">
-                        <div class="technics">Et ses copeaux de truffe noire</div>
-                        <div class="price">35€</div>
-                    </div>
-                </div>
-                <div class="dishe">
-                    <div class="dishe">Oeuf au plat</div>
-                    <div class="informations">
-                        <div class="technics">Assaisonné à la truffe sur lit de...</div>
-                        <div class="price">20€</div>
-                    </div>
+                <div class="heart">
+                        <i class="far fa-heart heart-conteneur"></i>
+                        <div class="heart-2">
+                            <i class="fas fa-heart"></i>
+                        </div>   
                 </div>
             </div>
+            <div class="menu-conteneur">
+                <div class="menu-column">
+                    <div class="type">ENTRÉES</div>
+                    <div class="menus">
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Tartare de poulpe acidulé</div>
+                                    <div class="technics">Aux zests d'orange</div>  
+                                </div>
+                                <div class="price">25€</div>
+                            </div>
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
 
-            <div class="type">Plats</div>
-            <div class="menus">
-                <div class="dishes">
-                    <div class="dishe">Filet de boeuf aux herbes</div>
-                    <div class="informations">
-                        <div class="technics">Accompagné de sa ribambelle de légumes</div>
-                        <div class="price">40€</div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Velouté de légumes d'antan</div>          
+                                    <div class="technics">Carotte,panais,topinambour</div>
+                                </div>
+                                <div class="price">35€</div>
+                            </div>
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Soupe à l'oignon</div>
+                                    <div class="technics">Revisitée</div>
+                                </div>
+                                <div class="price">20€</div>
+                            </div>
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dishe">
-                    <div class="dishe">Parmentier de queue de boeuf</div>
-                    <div class="informations">
-                        <div class="technics">À la truffe noire sur sa purée de panais</div>
-                        <div class="price">35€</div>
+                <div class="menu-column">
+                    <div class="type">PLATS</div>
+                    <div class="menus">
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Coquilles Saint-Jacques</div>
+                                    <div class="technics">Accompagnées d'une purée de panais</div>
+                                </div>
+                                <div class="price">40€</div>
+                            </div>
+                            
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Magret de canard</div>
+                                    <div class="technics">Et parmentier de pommes de terres</div>
+                                </div>
+                                <div class="price">35€</div>
+                            </div>
+                            
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Pigeonneau d'Ille-et-Vilaine</div>
+                                    <div class="technics">Sur son lit de gnocchis aux légumes</div>
+                                </div>
+                                <div class="price">44€</div>
+                            </div>
+                            
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dishe">
-                    <div class="dishe">Filet de Turbot</div>
-                    <div class="informations">
-                        <div class="technics">Aux agrumes</div>
-                        <div class="price">44€</div>
+                <div class="menu-column">
+                    <div class="type">DESSERTS</div>
+                    <div class="menus">
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Pétales de violettes glacés</div>
+                                    <div class="technics">Et purée de noisettes</div>
+                                </div>
+                                <div class="price">18€</div>
+                            </div>
+                            
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Fondant au chocolat</div>
+                                    <div class="technics">Revisité</div>
+                                </div>
+                                <div class="price">22€</div>
+                            </div>
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="dishes">
+                            <div class="info-dishe">
+                                <div class="informations">
+                                    <div class="dishe">Millefeuille croustillant</div>
+                                    <div class="technics">Myrtilles et pâte d'amande</div>
+                                </div>    
+                                <div class="price">23€</div>
+                            </div>
+                            <div class="check">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="type">Desserts</div>
-            <div class="menus">
-                <div class="dishes">
-                    <div class="dishe">Paris-Brest</div>
-                    <div class="informations">
-                        <div class="technics">Revisité</div>
-                        <div class="price">18€</div>
-                    </div>
-                </div>
-                <div class="dishe">
-                    <div class="dishe">Macaron au chocolat d'exception</div>
-                    <div class="informations">
-                        <div class="technics">Et glace à la vanille de Madagascar</div>
-                        <div class="price">22€</div>
-                    </div>
-                </div>
-                <div class="dishe">
-                    <div class="dishe">Mousse au chocolat</div>
-                    <div class="informations">
-                        <div class="technics">Au piment d'espelette et à la truffe noire</div>
-                        <div class="price">23€</div>
-                    </div>
-                </div>
+            <div class="position-boutton">
+                <button class="bouton-2" type="button">Commander</button>
             </div>
-            <button type="button">Commander</button>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-logo"></div>
+        <div class="footer-logo">
+            <div class="logo-footer logo-text">Ohmyfood</div>
+        </div>
         <div class="links-footer">
             <div class="footer-options">
-                <i class=""></i>
+                <div class="footer-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
                 <div class="options">Proposer un restaurant</div>
             </div>
 
             <div class="footer-options">
-                <i class=""></i>
+                <div class="footer-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
                 <div class="options">Devenir partenaire</div>
             </div>
 
             <div class="options">Mentions légales</div>
             <div class="options">Contact</div>
         </div>
+
     </footer>
+
+    <script src="https://kit.fontawesome.com/5048d6932d.js" crossorigin="anonymous"></script>
 </body>
 </html>

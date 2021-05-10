@@ -28,12 +28,22 @@ body{
     margin: auto; 
 }
 
-
 .picture-m1{
-    background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-    border-top: none;
+
 }
 
+.picture-m2{
+
+}
+
+.picture-m3{
+    background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    
+}
+
+.picture-m4{
+
+}
 
 .restaurant-name{
     font-weight: bold;
@@ -391,7 +401,7 @@ h1{
     width: 34px;
 }
 .arrow{
-    
+    cursor: pointer;
     
 }
 .logo-text{
