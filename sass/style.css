@@ -50,6 +50,22 @@ body {
   background-image: url("../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
+.menu-1 {
+  background-image: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.menu-2 {
+  background-image: url("../images/stil-u2Lp8tXIcjw-unsplash.jpg");
+}
+
+.menu-3 {
+  background-image: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+}
+
+.menu-4 {
+  background-image: url("../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
 .restaurant-name {
   font-weight: bold;
   display: -webkit-box;
@@ -70,7 +86,7 @@ body {
   font-size: 16px;
 }
 
-.title h1 {
+.title h2 {
   margin: 5px;
   margin-bottom: 15px;
 }
@@ -230,10 +246,7 @@ h1 {
 .menu-picture .picture {
   height: 250px;
   overflow: hidden;
-  border-radius: 20px;
   text-align: center;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
 }
 
 .notif {
@@ -286,8 +299,6 @@ h1 {
   height: 210px;
   background-size: cover;
   position: relative;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .new {
@@ -342,13 +353,13 @@ h1 {
 }
 
 .card .dishes:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 .card .dishes:nth-child(3) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
 }
 
 .card .dishes {
@@ -371,6 +382,8 @@ h1 {
           animation-name: dishes-appear;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .card .dishes .info-dishe {
@@ -447,6 +460,17 @@ h1 {
 
 .heart-2 {
   position: absolute;
+  bottom: 26px;
+  cursor: pointer;
+  color: #9356DC;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 0.5px;
+}
+
+.heart-2-main {
+  position: absolute;
   bottom: 29px;
   cursor: pointer;
   color: #9356DC;
@@ -457,6 +481,13 @@ h1 {
 }
 
 .heart:hover .heart-2 {
+  opacity: 1;
+  font-size: 26.5px;
+  -webkit-transform: translate(-2%, 69%);
+          transform: translate(-2%, 69%);
+}
+
+.heart:hover .heart-2-main {
   opacity: 1;
   font-size: 26.5px;
   -webkit-transform: translate(-2%, 69%);
@@ -509,14 +540,23 @@ h1 {
   color: white;
 }
 
-.footer .links-footer {
+.footer .links-footer, .footer a {
   color: white;
   text-align: start;
+  text-decoration: none;
 }
 
 .footer .footer-icon {
   font-size: 10px;
   padding-right: 10px;
+}
+
+.photos {
+  height: 210px;
+  background-size: cover;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -594,14 +634,14 @@ h1 {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .photos {
-    height: 350px;
-  }
   .informations {
     padding-right: 10px;
   }
   .price {
     padding-right: 5px;
+  }
+  .menu-column {
+    width: 30%;
   }
 }
 
